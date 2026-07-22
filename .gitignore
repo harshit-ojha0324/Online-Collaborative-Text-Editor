@@ -1,0 +1,37 @@
+# ---- OS / editor ----
+.DS_Store
+**/.DS_Store
+.idea/
+*.iml
+.vscode/
+*.swp
+
+# ---- Secrets / local env ----
+.env
+.env.local
+.env.*.local
+*.env
+
+# ---- Node / frontend ----
+node_modules/
+**/node_modules/
+dist/
+dist-ssr/
+*.local
+
+# ---- Java / Gradle / backend ----
+.gradle/
+**/build/
+!**/src/**/build/
+bin/
+out/
+HELP.md
+
+# ---- Runtime data (never commit the local H2 database — it holds real accounts) ----
+backend/data/
+*.mv.db
+*.trace.db
+
+# ---- Logs ----
+*.log
+logs/
